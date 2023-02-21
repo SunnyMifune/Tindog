@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 h1 {
   font-family: "Montserrat-Black";
@@ -60,12 +60,17 @@ h3 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* feature section */
 
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: absolute;
+  z-index: 1;
 }
 
 .feature-box {
